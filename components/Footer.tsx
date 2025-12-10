@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
 import { APP_CONSTANTS } from "@/constants/app.constant";
+import { products } from "@/data/products";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -93,46 +94,16 @@ export default function Footer() {
               Our Products
             </h3>
             <ul className="space-y-2">
-              <li>
-                <Link
-                  href="/products/auto-cpap"
-                  className="hover:text-white transition-colors text-sm"
-                >
-                  Auto CPAP
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/products/bipap"
-                  className="hover:text-white transition-colors text-sm"
-                >
-                  BiPAP
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/products/oxygen-concentrator"
-                  className="hover:text-white transition-colors text-sm"
-                >
-                  Oxygen Concentrator
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/products/travel-cpap"
-                  className="hover:text-white transition-colors text-sm"
-                >
-                  Travel CPAP
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/products/portable-oxygen-concentrator"
-                  className="hover:text-white transition-colors text-sm"
-                >
-                  Portable Oxygen Concentrator
-                </Link>
-              </li>
+              {products.slice(0, 5).map((product) => (
+                <li key={product.id}>
+                  <Link
+                    href={`/products/${product.slug}`}
+                    className="hover:text-white transition-colors text-sm"
+                  >
+                    {product.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
