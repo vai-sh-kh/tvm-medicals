@@ -50,9 +50,6 @@ export const products: Product[] = [
       "/img/resmed/resmed.webp",
       "/img/resmed/resmed-1.webp",
       "/img/resmed/resmed-2.webp",
-      "/images/sample/sample-2.jpeg",
-      "/images/sample/sample-3.jpeg",
-      "/images/sample/sample-4.jpeg",
     ],
   },
   {
@@ -119,9 +116,6 @@ export const products: Product[] = [
       "/img/lumis/lumis-1.webp",
       "/img/lumis/lumis-2.webp",
       "/img/lumis/lumis-3.webp",
-      "/images/sample/sample-5.jpeg",
-      "/images/sample/sample-6.jpeg",
-      "/images/sample/sample-7.jpeg",
     ],
   },
   {
@@ -173,9 +167,6 @@ export const products: Product[] = [
       "/img/airmini/airmini-2.webp",
       "/img/airmini/airmini-3.webp",
       "/img/airmini/airmini-4.webp",
-      "/images/sample/sample-2.jpeg",
-      "/images/sample/sample-3.jpeg",
-      "/images/sample/sample-4.jpeg",
     ],
   },
   {
@@ -232,8 +223,6 @@ export const products: Product[] = [
       "/img/home-sleep/home-sleep-2.webp",
       "/img/home-sleep/home-sleep-4.webp",
       "/img/home-sleep/home-sleep-5.webp",
-      "/images/sample/sample-15.jpeg",
-      "/images/sample/sample-16.jpeg",
     ],
   },
 
@@ -286,9 +275,6 @@ export const products: Product[] = [
       "/img/philips/philips-0.webp",
       "/img/philips/philips-1.webp",
       "/img/philips/philips-2.webp",
-      "/images/sample/sample-8.jpeg",
-      "/images/sample/sample-9.jpeg",
-      "/images/sample/sample-10.jpeg",
     ],
   },
   {
@@ -341,9 +327,6 @@ export const products: Product[] = [
       "/img/lumis/lumis-1.webp",
       "/img/lumis/lumis-2.webp",
       "/img/lumis/lumis-3.webp",
-      "/images/sample/sample-5.jpeg",
-      "/images/sample/sample-6.jpeg",
-      "/images/sample/sample-7.jpeg",
     ],
   },
 
@@ -398,9 +381,6 @@ export const products: Product[] = [
       "/img/simplygo/simplygo-3.webp",
       "/img/simplygo/simplygo-2.webp",
       "/img/simplygo/simplygo-0.webp",
-      "/images/sample/sample-8.jpeg",
-      "/images/sample/sample-9.jpeg",
-      "/images/sample/sample-10.jpeg",
     ],
   },
   {
@@ -451,9 +431,6 @@ export const products: Product[] = [
       "/img/full-face/full-face-1.webp",
       "/img/full-face/full-face-2.webp",
       "/img/full-face/full-face-3.webp",
-      "/images/sample/sample-11.jpeg",
-      "/images/sample/sample-12.jpeg",
-      "/images/sample/sample-13.jpeg",
     ],
   },
   {
@@ -502,9 +479,6 @@ export const products: Product[] = [
     images: [
       "/img/full-face/full-face-air30.webp",
       "/img/full-face/full-face-air30-1.webp",
-      "/images/sample/sample-11.jpeg",
-      "/images/sample/sample-12.jpeg",
-      "/images/sample/sample-13.jpeg",
     ],
   },
   {
@@ -556,9 +530,6 @@ export const products: Product[] = [
     images: [
       "/img/resmed/resmed-pillow-1.webp",
       "/img/resmed/resmed-pillow-2.webp",
-      "/images/sample/sample-11.jpeg",
-      "/images/sample/sample-12.jpeg",
-      "/images/sample/sample-13.jpeg",
     ],
   },
   {
@@ -614,6 +585,45 @@ export const products: Product[] = [
     images: [
       "/img/resmed/resmed-astral-1.webp",
       "/img/resmed/resmed-astral-2.jpg",
+    ],
+  },
+  {
+    id: "other-products",
+    name: "Other products",
+    slug: "other-products",
+    label: "Additional Products",
+    fullDescription:
+      "Explore our additional range of medical equipment and accessories designed to support your respiratory and sleep therapy needs.",
+    features: [
+      "Wide selection of medical equipment",
+      "Quality accessories and components",
+      "Compatible with various therapy devices",
+    ],
+    benefits: [
+      "Comprehensive product range",
+      "Quality assurance",
+      "Reliable performance",
+    ],
+    whatsIncluded: [
+      "Product as specified",
+      "User manual",
+      "Warranty information",
+    ],
+    image: "/images/sample/sample-2.jpeg",
+    position: "top",
+    images: [
+      "/images/sample/sample-2.jpeg",
+      "/images/sample/sample-3.jpeg",
+      "/images/sample/sample-4.jpeg",
+      "/images/sample/sample-5.jpeg",
+      "/images/sample/sample-6.jpeg",
+      "/images/sample/sample-7.jpeg",
+      "/images/sample/sample-8.jpeg",
+      "/images/sample/sample-9.jpeg",
+      "/images/sample/sample-10.jpeg",
+      "/images/sample/sample-11.jpeg",
+      "/images/sample/sample-12.jpeg",
+      "/images/sample/sample-13.jpeg",
       "/images/sample/sample-15.jpeg",
       "/images/sample/sample-16.jpeg",
     ],
