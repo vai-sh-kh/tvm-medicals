@@ -112,9 +112,8 @@ export const products: Product[] = [
     cardImage: "/img/lumis100-bipap.webp",
     position: "top",
     images: [
-      "/img/lumis100-bipap.webp",
       "/img/lumis/lumis-1.webp",
-      "/img/lumis/lumis-2.webp",
+      "/img/lumis100-bipap.webp",
     ],
   },
   {
@@ -593,9 +592,11 @@ export const products: Product[] = [
       "Instruction guide and fitting instructions",
       "Size fitting guide",
     ],
-    image: "/img/resmed/resmed-pillow-2.webp",
+    image: "/img/home-sleep/airfit.jpeg",
     position: "top",
     images: [
+      "/img/home-sleep/airfit.avif",
+      "/img/home-sleep/airfit.jpeg",
       "/img/resmed/resmed-pillow-1.webp",
       "/img/resmed/resmed-pillow-2.webp",
     ],
