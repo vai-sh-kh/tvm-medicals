@@ -320,13 +320,11 @@ export const products: Product[] = [
       "SD card for data storage",
       "Carrying case (selected models)",
     ],
-    image: "/img/lumis/lumis-2.webp",
-    cardImage: "/img/lumis/lumis-3.webp",
+    image: "/img/lumis/lumis-1.webp",
+    cardImage: "/img/lumis/lumis-1webp",
     position: "top",
     images: [
-      "/img/lumis/lumis-1.webp",
-      "/img/lumis/lumis-2.webp",
-      "/img/lumis/lumis-3.webp",
+      "/img/lumis/lumis-1.webp"
     ],
   },
   {
